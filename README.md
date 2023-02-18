@@ -21,4 +21,13 @@ It is basically a React component whose name will start with "use" like useFetch
 ![image](https://user-images.githubusercontent.com/86320260/219847989-9070815e-73f3-4e01-b980-b096a1c80791.png)
 
 # 5.Usage in the component
-Import the useFetch hook and pass the URL of the API
+Import the useFetch hook and pass the URL of the API endpoint from where you want to fetch data. Now just like any React hook we can directly use our custom hook to fetch the data.
+
+![image](https://user-images.githubusercontent.com/86320260/219856087-c8773594-70a3-4c37-b64b-51c456afaa86.png)
+
+# 6.React Query Library
+With this we can achieve a lot more than just fetching data. It provides support for caching and re-fetching, which impacts the overall user experience by preventing irregularities and ensuring our application feels faster.
+
+![image](https://user-images.githubusercontent.com/86320260/219856209-fed64e8a-b87c-455d-9222-e0f2e22d6e01.png)
+
+
